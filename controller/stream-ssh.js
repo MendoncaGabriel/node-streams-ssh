@@ -5,7 +5,7 @@ const path = require('path');
 const chunkSizeMB = 4; // 4MB
 
 const sshConfig = {
-  host: 'SEU_IP_LOCAL',
+  host: '192.168.100.10',
   port: 22,
   username: 'SEU_USUARIO',
   privateKey: require('fs').readFileSync('/caminho/para/sua/chave_privada') // ou password: 'SUA_SENHA'

@@ -1,9 +1,9 @@
 const express = require("express")
 const router = express.Router()
-const controller = require("../controller/stream-ssh")
+const controller = require("../controller/stream")
 
 // stream de video
-router.get('/:fileName', controller.stream);
+router.get('/:folder/:fileName', controller.stream);
 
 // getdata video 
 
